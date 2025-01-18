@@ -19,10 +19,10 @@ fhir:
     miiPrOnkoGrading: "https://www.medizininformatik-initiative.de/fhir/ext/modul-onko/StructureDefinition/mii-pr-onko-grading"
     # MII
     # renovate: datasource=npm depName=de.medizininformatikinitiative.kerndatensatz.person
-    mii-person-package-version: "2025.0.0"
+    mii-person-package-version: 2025.0.0
     mii-patient-pseudonymisiert: "https://www.medizininformatik-initiative.de/fhir/core/modul-person/StructureDefinition/PatientPseudonymisiert|${fhir.profiles.mii-person-package-version}"
     # renovate: datasource=npm depName=de.medizininformatikinitiative.kerndatensatz.onkologie
-    mii-onko-package-version: "2025.0.1"
+    mii-onko-package-version: 2025.0.1
     mii-pr-onko-operation: "https://www.medizininformatik-initiative.de/fhir/ext/modul-onko/StructureDefinition/mii-pr-onko-operation|${fhir.profiles.mii-onko-package-version}"
     mii-pr-onko-diagnose-primaertumor: "https://www.medizininformatik-initiative.de/fhir/ext/modul-onko/StructureDefinition/mii-pr-onko-diagnose-primaertumor|${fhir.profiles.mii-onko-package-version}"
     mii-pr-onko-strahlentherapie: "https://www.medizininformatik-initiative.de/fhir/ext/modul-onko/StructureDefinition/mii-pr-onko-strahlentherapie|${fhir.profiles.mii-onko-package-version}"
