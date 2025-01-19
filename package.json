@@ -3,6 +3,6 @@
   "version": "0.1.0",
   "description": "test",
   "dependencies": {
-    "de.medizininformatikinitiative.kerndatensatz.onkologie": "2025.0.2"
+    "de.medizininformatikinitiative.kerndatensatz.onkologie": "2025.0.3"
   }
 }
