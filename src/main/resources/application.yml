@@ -19,7 +19,7 @@ fhir:
     miiPrOnkoGrading: "https://www.medizininformatik-initiative.de/fhir/ext/modul-onko/StructureDefinition/mii-pr-onko-grading"
     # MII
     # renovate: datasource=npm registryUrl=https://gitlab.com/api/v4/packages/npm/ depName=@mii-termserv/de.medizininformatikinitiative.kerndatensatz.terminology.person
-    mii-person-package-version: 2025.0.0-alpha.2
+    mii-person-package-version: 2025.0.0-alpha.3
     mii-patient-pseudonymisiert: "https://www.medizininformatik-initiative.de/fhir/core/modul-person/StructureDefinition/PatientPseudonymisiert|${fhir.profiles.mii-person-package-version}"
     # renovate: datasource=npm depName=de.medizininformatikinitiative.kerndatensatz.onkologie
     mii-onko-package-version: 2025.0.2
