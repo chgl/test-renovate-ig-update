@@ -10,7 +10,7 @@
       ],
       "versioningTemplate": "{{#if versioning}}{{{versioning}}}{{else}}semver{{/if}}",
       "extractVersionTemplate": "{{#if extractVersion}}{{{extractVersion}}}{{else}}^(?<version>.*)${{/if}}",
-      "registryUrlTemplate": "https://gitlab.com/api/v4/packages/npm/"
+      "registryUrlTemplate": "{{#if registryUrl}}{{{registryUrl}}}{{else}}https://packages.simplifier.net{{/if}}"
     }
   ]
 }
