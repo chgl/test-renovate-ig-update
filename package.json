@@ -4,6 +4,6 @@
   "description": "test",
   "dependencies": {
     "@mii-termserv/de.medizininformatikinitiative.kerndatensatz.terminology.person": "2025.0.0-alpha.2",
-    "react": "18.3.0"
+    "react": "19.0.0"
   }
 }
