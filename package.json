@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "test",
   "dependencies": {
+    "@mii-termserv/de.medizininformatikinitiative.kerndatensatz.terminology.person": "2025.0.0-alpha.1",
     "react": "18.3.0"
   }
 }

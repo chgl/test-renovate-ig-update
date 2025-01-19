@@ -18,7 +18,7 @@ fhir:
     deathObservation: "http://dktk.dkfz.de/fhir/StructureDefinition/onco-core-Observation-TodUrsache"
     miiPrOnkoGrading: "https://www.medizininformatik-initiative.de/fhir/ext/modul-onko/StructureDefinition/mii-pr-onko-grading"
     # MII
-    # renovate: datasource=npm depName=react
+    # renovate: datasource=npm depName=@mii-termserv/de.medizininformatikinitiative.kerndatensatz.terminology.person
     mii-person-package-version: 18.3.0
     mii-patient-pseudonymisiert: "https://www.medizininformatik-initiative.de/fhir/core/modul-person/StructureDefinition/PatientPseudonymisiert|${fhir.profiles.mii-person-package-version}"
     # renovate: datasource=npm depName=react
