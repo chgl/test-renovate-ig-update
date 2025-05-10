@@ -1,10 +1,14 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:best-practices"],
+  "extends": [
+    "config:best-practices"
+  ],
   "customManagers": [
     {
       "customType": "regex",
-      "fileMatch": ["^src/main/resources/application.yml$"],
+      "managerFilePatterns": [
+        "/^src/main/resources/application.yml$/"
+      ],
       "matchStrings": [
         "datasource=(?<datasource>.*?)( registryUrl=(?<registryUrl>.*?))? depName=(?<depName>.*?)( extractVersion=(?<extractVersion>.*?))?\\s.*?-version: (?<currentValue>.*)\\s"
       ],
